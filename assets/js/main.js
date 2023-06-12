@@ -1,6 +1,7 @@
 var LightNumber = 1;
 var direction = "RIGHT"
 var intervalID = null;
+var audio = document.getElementById("audio");
 
 var Lights = $('.light')
 
@@ -36,7 +37,11 @@ function updateLights(){
 
 $('#start').on('click',() => {
     intervalID = setInterval(updateLights,100)
+    audio.play();
+
 });
 $('#stop').on('click',() => {
     clearInterval(intervalID);
+    audio.pause();
 });
+
