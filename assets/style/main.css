@@ -4,9 +4,8 @@ body{
     overflow: hidden;
     background-image: url("../images/sports-car-pontiac-simple-background-knight-rider-wallpaper-preview.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: 1500px;
-
+    background-position: center;
 }
 #light-panel{
     position: absolute;
