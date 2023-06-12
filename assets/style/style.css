@@ -1,0 +1,38 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("../images/sports-car-pontiac-simple-background-knight-rider-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px;
+
+}
+#light-panel{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    width: fit-content;
+    height: fit-content;
+}
+#light-panel .light{
+    width: 50px;
+    height: 20px;
+    border: 0.5px solid gray;
+    display: inline-block;
+}
+
+#btn-pnl{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 10vh;
+    margin: auto;
+}
